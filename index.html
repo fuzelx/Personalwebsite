@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,800;9..40,900&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800&family=Raleway:ital,wght@0,500;0,700;1,500&family=Rokkitt:ital,wght@0,400;0,500;0,700;1,300&family=Share+Tech+Mono&family=Silkscreen&family=VT323&family=Zilla+Slab+Highlight&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56a4b8eed4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Fuzail Mansuri- Web Wizard✨🛠</title>
+</head>
+<style>
+    body {
+        font-family: 'DM Sans', sans-serif;
+        background: linear-gradient(45deg, #0066ff, #e600e6, #7e00f3);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+</style>
+
+<body>
+
+    <nav class=" p-3 md:p-4 hidden md:block ">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white text-xl font-semibold"> Fuzail Mansuri</div>
+
+            <!-- Fries Menu (Hidden on large screens) -->
+            <div class="lg:hidden">
+                <button id="menu-toggle" class="text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navbar Links (Hidden on small screens) -->
+            <div class="hidden lg:flex space-x-4">
+                <a href="#home" class="text-white">Home</a>
+                <a href="#about" class="text-white">About</a>
+                <a href="#Skills" class="text-white">Skills</a>
+                <a href="#projects" class="text-white">Portfolio</a>
+                <a href="contact.html" class="text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="bg-white/30 fixed bottom-0 right-3 left-3 mb-3 backdrop-blur-sm p-3 rounded-lg md:hidden">
+        <div class="flex justify-center items-center space-x-0 md:space-x-4">
+            <a href="#home" class="text-black font-semibold rounded-lg  hover:bg-white p-2 ">Home</a>
+            <a href="#about" class="text-black font-semibold p-2 rounded-lg hover:bg-white  ">About</a>
+            <a href="#Skills" class="text-black font-semibold p-2 rounded-lg hover:bg-white ">Skills</a>
+            <a href="#projects" class="text-black font-semibold p-2 rounded-lg hover:bg-white ">Portfolio</a>
+            <a href="contact.html" class="text-black font-semibold p-2 rounded-lg hover:bg-white ">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <!-- <div id="mobile-menu" class="lg:hidden  bg-black p-4">
+        <a href="#" class="block text-white mb-2">Home</a>
+        <a href="#" class="block text-white mb-2">About</a>
+        <a href="#" class="block text-white mb-2">Services</a>
+        <a href="#" class="block text-white mb-2">Portfolio</a>
+        <a href="#" class="block text-white">Contact</a>
+    </div> -->
+
+
+    <section class=" p-1 md:p-5 h-screen flex justify-center items-start md:items-center flex-col md:h-screen" id="home">
+        <div>
+            <p class="text-white text-xl m-2 font-semibold">Hello, I'm Fuzail</p>
+        </div>
+        <div class="mt-1">
+            <h1 class="text-left md:text-center m-2 text-4xl  text-white font-black"  style=" font-family: 'Share Tech Mono', monospace;">Front-end web dev, passionate about
+                creating seamless user experiences
+                and innovating with cutting-edge digital solutions.</h1>
+
+        </div>
+        <div class="m-4">
+            <a class="bg-white p-3 text-black font-semibold mr-1 rounded-l-lg shadow-md hover:bg-neutral-300"
+                href="mailto:fuzelxr@gmail.com">Hire me <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></a>
+            <a class="bg-white p-3 text-black  font-semibold rounded-r-lg shadow-md hover:bg-neutral-300" href="#about">About me!</a>
+    
+</div>
+</section>
+<!-- HOMEPAGE ENDS -->
+
+<!-- ABOUT STARTS HERE -->
+<section class="h-screen max-h-max" id="about">
+    <div class="m-5 border-t-2 border-b-2 border-white mb-8 mt-8 p-3">
+<h1 class="text-white  font-bold text-4xl md:text-6xl text-center" style=" font-family: 'Share Tech Mono', monospace;">{About me}</h1>
+    </div>
+    <div class="flex justify-center items-center flex-wrap">
+        <div class="m-3 p-4">
+            <h4 class="font-semibold text-white text-center text-xl md:text-2xl">Hello!, I'm Fuzail , a seasoned frontend developer specializing in HTML5, CSS3, and JavaScript, with a strong command of the modern CSS framework, Tailwind CSS. My passion lies in designing and implementing visually stunning and responsive web interfaces. Additionally, I possess advanced skills in jQuery for dynamic front-end interactions, enabling me to enhance user experiences.</h4>
+        </div>
+        <div class="bg-white/30 m-2 backdrop-blur-sm flex-col flex-wrap flex justify-center items-start rounded-lg p-3 ">
+<div class="m-3">
+    <h3 class="text-white font-semibold text-left text-lg"><i class="fa-solid fa-location-dot fa-2xl" style="color: #ffffff;"></i> Ahmedabad, India</h3>
+</div>
+<div class="m-3">
+    <h3 class="text-white font-semibold text-left text-lg"><i class="fa-solid fa-book fa-2xl" style="color: #ffffff;"></i> Bachelors Of Computer Applications</h3>
+</div>
+<div class="m-3">
+    <h3 class="text-white font-semibold text-left text-lg"><i class="fa-solid fa-building-columns fa-2xl" style="color: #ffffff;"></i> Silver Oak University(Ahmedabad)</h3>
+</div>
+
+        </div>
+    </div>
+<div>
+
+</div>
+</section>
+
+
+<!-- SKILLS SECTIONS STARTS HERE -->
+<section class=" h-screen max-h-fit " id="Skills">
+                <div class="m-5 ml-5 mb-4 border-t-2 border-white border-b-2 p-2">
+                    <h1 class="text-center md:text-6xl  font-bold text-4xl text-white" style=" font-family: 'Share Tech Mono', monospace;">/Skills</h1>
+                </div>
+                <div class="flex  justify-center  items-center">
+                    <div id="card-container" class="flex flex-wrap justify-center  items-center">
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/html.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">HTML5</p>
+                            </div>
+                        </div>
+
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/css.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">CSS3</p>
+                            </div>
+                        </div>
+
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/javascript.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">JS</p>
+                            </div>
+                        </div>
+
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/jquery.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">JQuery</p>
+                            </div>
+                        </div>
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/tailwind.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">Tailwind</p>
+                            </div>
+                        </div>
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/sass.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">SASS</p>
+                            </div>
+                        </div>
+
+
+                        <div class="rounded-lg shadow-lg flex justify-center items-center m-2 flex-col p-3 bg-white">
+                            <div>
+                                <img src="/new/src/git.png" alt="" class="w-full h-auto shadow-lg">
+                            </div>
+                            <div class="p-1">
+                                <p class="font-bold text-black text-2xl">GIT</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+
+    <!-- SKILLS SECTION ENDS HERE -->
+
+<!-- PROJECTS SECTION STARTS HERE -->
+
+    <section class="h-screen max-h-max pb-6 " id="projects">
+
+        <div class="m-5 mb-8 mt-8 border-t-2 border-white border-b-2 p-2">
+            <h1 class="font-bold text-white text-center md:text-6xl text-4xl" style=" font-family: 'Share Tech Mono', monospace;">/Portfolio</h1>
+        </div>
+        <div class="flex justify-center items-center flex-wrap p-4 md:p-8">
+
+            <div class="p-3 bg-white rounded-lg shadow-lg m-2">
+                <div>
+                    <img src="/new/src/P1 (2).png" alt="" class="w-52 rounded-lg h-auto">
+                </div>
+                <div class="p-3">
+                    <p class="font-bold text-black text-xl"> Creator Website</p>
+                </div>
+                <div class="p-3 flex">
+                    <i class="fa-brands fa-html5 fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-css3-alt fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-js fa-xl" style="color: #000000;"></i>
+                </div>
+                <div class="p-3 mt-4">
+                     <a href="#" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Live Demo</a>
+                     <a href="#" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Code</a>
+                </div>
+            </div>
+
+
+            <div class="p-3 bg-white rounded-lg shadow-lg m-2">
+                <div>
+                    <img src="/new/src/P1 (2).png" alt="" class="w-52 rounded-lg h-auto">
+                </div>
+                <div class="p-3">
+                    <p class="font-bold text-black text-xl"> Creator Website</p>
+                </div>
+                <div class="p-3 flex">
+                    <i class="fa-brands fa-html5 fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-css3-alt fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-js fa-xl" style="color: #000000;"></i>
+                </div>
+                <div class="p-3 mt-4">
+                     <a href="#" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Live Demo</a>
+                     <a href="#" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Code</a>
+                </div>
+            </div>
+
+            <div class="p-3 bg-white rounded-lg shadow-lg m-2">
+                <div>
+                    <img src="/new/src/P1 (3).png" alt="" class="w-52 rounded-lg h-auto">
+                </div>
+                <div class="p-3">
+                    <p class="font-bold text-black text-xl"> Password validation</p>
+                </div>
+                <div class="p-3  flex">
+                    <i class="fa-brands fa-html5 fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-css3-alt fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-js fa-xl" style="color: #000000;"></i>
+                </div>
+                <div class="p-3 mt-4">
+                     <a href="#" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Live Demo</a>
+                     <a href="#" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Code</a>
+                </div>
+            </div>
+
+            <div class="p-3 bg-white rounded-lg shadow-lg mb-12 m-2">
+                <div>
+                    <img src="/new/src/P1 (4).png" alt="" class="w-52 rounded-lg h-auto">
+                </div>
+                <div class="p-3">
+                    <p class="font-bold text-black text-xl">Clock using JS</p>
+                </div>
+                <div class="p-3 flex">
+                    <i class="fa-brands fa-html5 fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-css3-alt fa-xl mr-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-js fa-xl" style="color: #000000;"></i>
+                </div>
+                <div class="p-3 mt-4">
+                     <a href="https://javascript-clock-nu.vercel.app/" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Live Demo</a>
+                     <a href="https://github.com/fuzelx/Javascript-clock" class="p-2 rounded-lg bg-black hover:bg-neutral-800 text-white">Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- PROJECTS SECTION ENDS HERE -->
+
+
+
+    <script> // JavaScript to toggle mobile menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    <script src=""></script>
+
+</body>
+
+</html>
